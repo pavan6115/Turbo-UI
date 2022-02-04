@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
 
 * {
     margin : 0;
@@ -22,6 +23,8 @@ body {
 
 .wrapper {
     position: relative;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .nav__container {
@@ -76,7 +79,7 @@ ul {
 }
 
 .header {
-    margin-top: 150px;
+    margin-top: 16rem;
 }
 
 .header__content {
@@ -87,9 +90,10 @@ ul {
 }
 
 .header__content-main{
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 2.8rem;
+    font-weight: 300;
     margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
     
 }
 
@@ -98,6 +102,25 @@ ul {
     text-align: center;
     font-size: 8.5rem;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 1rem;
+}
+
+.brief {
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.brief span {
+    font-weight: 700;
+}
+
+.header__content-main-name .logo {  
+    height: 10rem;
+    padding-right: 2.5rem;
 }
 
 @supports (background-clip: text) {
@@ -118,7 +141,10 @@ ul {
     font-weight: 300;
     line-height: 2rem;
     word-spacing: 3px;
-    margin-left: 50px;
+    margin-top: 10rem;
+    text-align: center;
+    color: #5b5b5b;
+
 }
 
 .header__content-description span {
@@ -132,7 +158,7 @@ ul {
     padding : 20px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 2px 12px 11px -7.5px var(--secondary-color);
+    /* box-shadow: 2px 12px 11px -7.5px var(--secondary-color); */
 }
 
 /* .header__content-btn:hover {
@@ -142,8 +168,7 @@ ul {
 } */
 
 .btn-gs {
-    margin: 0px 25px;
-    border: 3px solid var(--primary-color);
+    margin: auto auto;
     color: var(--primary-color);
 }
 
@@ -151,24 +176,26 @@ ul {
     background-color: var(--primary-color);
     color: white;
     transform: translateY(5px);
-    transition: all 1s;
+    transition: all ease-in-out 300ms;
+    box-shadow: 0px 20px 39px -7.5px #F25C057D
+    ;
 }
 
 .btn-docs {
     background-color: var(--primary-color);
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-weight: 500;
     margin-top: 35px;
     padding : 20px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 2px 12px 11px -7.5px var(--secondary-color);
+    /* box-shadow: 2px 12px 11px -7.5px var(--secondary-color); */
     color : white;
 }
 
 .btn-docs:hover{
     transform: translateX(5px);
-    transition: all 1s;
+    transition: all ease-in-out 300ms;
 }
 
 
