@@ -30,8 +30,6 @@ body {
 .nav__container {
     display: flex;
     background-color: var(--primary-color);
-    /*background-color: #ff4e00;  */
-    /* background-image: linear-gradient(350deg, #ff4e00 0%, #ec9f05 70%);  */
     padding: 15px 35px;
     justify-content: center;
     align-items: center;
@@ -55,7 +53,6 @@ body {
 }
 
 .nav__right {
-    /* border: 1px solid brown; */
     display: flex;
     margin-left: auto;
     font-size: 1.5rem;
@@ -112,6 +109,7 @@ ul {
 .brief {
     font-size: 1.8rem;
     font-family: 'Nunito', sans-serif;
+    margin-top: 3rem;
 }
 
 .brief span {
@@ -135,13 +133,12 @@ ul {
 }
 
 .header__content-description {
-    /* border: 1px solid rebeccapurple; */
     width: 944px;
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 2rem;
     word-spacing: 3px;
-    margin-top: 10rem;
+    margin-top: 9rem;
     text-align: center;
     color: #5b5b5b;
 
@@ -151,24 +148,22 @@ ul {
     font-weight: 600;
 }
 
+.header__content-buttons {
+    display: block;
+    text-align: center;
+}
+
 .header__content-btn {
     font-size: 1.2rem;
     font-weight: 500;
-    margin-top: 35px;
-    padding : 20px;
+    margin-top: 8rem;
+    padding: 20px;
     border-radius: 10px;
     cursor: pointer;
-    /* box-shadow: 2px 12px 11px -7.5px var(--secondary-color); */
+    box-shadow: 0px 0px 10px -7.5px var(--secondary-color);
 }
 
-/* .header__content-btn:hover {
-    background-color: var(--primary-color);
-    transform: translateY(-5px);
-    transition: all 1s;
-} */
-
 .btn-gs {
-    margin: auto auto;
     color: var(--primary-color);
 }
 
@@ -183,13 +178,11 @@ ul {
 
 .btn-docs {
     background-color: var(--primary-color);
-    /* font-size: 1.2rem; */
     font-weight: 500;
     margin-top: 35px;
     padding : 20px;
     border-radius: 10px;
     cursor: pointer;
-    /* box-shadow: 2px 12px 11px -7.5px var(--secondary-color); */
     color : white;
 }
 
@@ -204,11 +197,32 @@ i {
 }
 
 .installation {
-    border: 1px solid red;
-    margin-top: 80px;
+    padding: 10rem 0rem;
+    text-align: center;
+}
+
+.installation__heading {
+    font-size: 4em;
+    font-family: 'Nunito Sans', sans-serif;;
+}
+
+.heading-brief {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color : var(--primary-color);
 }
 
 
+iframe {
+    width: 1200px;
+}
+
+.installation-description {
+    font-size: 1.1rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 
 
