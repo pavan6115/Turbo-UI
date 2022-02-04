@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --primary-color : #F28627;
+    --secondary-color : #F25C05;
+    --border-color : #8C1C03;
+    --background-color : #f1f5f9;
+    /* --btn-hover-color : rgba(242, 134, 39, .9); */
+
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.wrapper {
+    position: relative;
+}
+
+.nav__container {
+    display: flex;
+    background-color: var(--primary-color);
+    /*background-color: #ff4e00;  */
+    /* background-image: linear-gradient(350deg, #ff4e00 0%, #ec9f05 70%);  */
+    padding: 15px 35px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav__left {
+    display: flex;
+}
+
+.nav__img {
+    height: 50px;
+}
+
+.nav__logo h2 {
+    font-size: 2rem;
+}
+
+.nav__title {
+    font-weight: 800;
+}
+
+.nav__right {
+    /* border: 1px solid brown; */
+    display: flex;
+    margin-left: auto;
+    font-size: 1.5rem;
+    width: 250px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav__right-icons {
+    margin: 0px 20px
+}
+
+.nav__right-icons-docs:hover {
+    color: var(--background-color);
+    border-bottom: 3px solid var(--border-color);
+}
+
+.header {
+    margin-top: 150px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__content-main{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.header__content-main-name { 
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 8.5rem;
+    font-weight: 900;
+}
+
+@supports (background-clip: text) {
+    .header__content-main-name { 
+        background-image: linear-gradient(200deg, #ff4e00 0%, #ec9f05 65%);
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+        font-size: 8.5rem;
+        font-weight: 900;
+} 
+}
+
+.header__content-description {
+    /* border: 1px solid rebeccapurple; */
+    width: 944px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    word-spacing: 3px;
+    margin-left: 50px;
+}
+
+.header__content-description span {
+    font-weight: 600;
+}
+
+.header__content-btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 35px;
+    padding : 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 12px 11px -7.5px var(--secondary-color);
+}
+
+/* .header__content-btn:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-5px);
+    transition: all 1s;
+} */
+
+.btn-gs {
+    margin: 0px 25px;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-gs:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(5px);
+    transition: all 1s;
+}
+
+.btn-docs {
+    background-color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 35px;
+    padding : 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 12px 11px -7.5px var(--secondary-color);
+    color : white;
+}
+
+.btn-docs:hover{
+    transform: translateX(5px);
+    transition: all 1s;
+}
+
+
+i {
+    margin-left: 5px;
+}
+
+.installation {
+    border: 1px solid red;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+/* utilites */
+a {
+    text-decoration: none;
+    color : black
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+
