@@ -8,3 +8,85 @@
     font-family: 'Nunito', sans-serif;
 }
 
+:root {
+    --primary-color : #F28627;
+    --secondary-color : #F25C05;
+    --border-color : #8C1C03;
+    --background-color : #f1f5f9;
+    --btn-hover-color : rgba(242, 134, 39, .9);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    'header header header header header'
+    'sidebar content content content content'
+    'sidebar content content content content'
+    'sidebar content content content content';
+}
+
+.nav {
+    grid-area: header;
+    display: flex;
+    width: 100%;
+    border: 2px solid brown;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__logo {
+    position: relative;
+    top : .5rem;
+    height: 3rem;
+}
+
+.nav__logo-name {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3rem;
+    color: var(--primary-color);
+    padding-left: .8rem;
+    font-weight: 600;
+}
+
+.nav__right {
+    display: flex;
+    font-size: 1.8rem;
+    margin-left: auto;
+    /* border: 2px solid magenta; */
+}
+
+.nav__right-icons a{
+    color: #5b5b5b;
+    padding: 0rem 1rem;
+    
+}
+
+.nav__right-icons a:hover {
+    color: var(--secondary-color);
+}
+
+
+
+/* utils */
+a {
+    text-decoration: none;
+    color: none;
+}
+
+ul {
+    list-style: none;
+    color : none;
+    text-decoration: none;
+}
