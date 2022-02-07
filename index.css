@@ -189,7 +189,11 @@ i {
     padding : 20px;
     border-radius: 10px;
     cursor: pointer;
-    color : white;
+    /* color : white; */
+}
+
+.btn-docs > a {
+    color: white;
 }
 
 .btn-docs:hover{
