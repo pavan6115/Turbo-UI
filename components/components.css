@@ -5,7 +5,7 @@
     margin : 0;
     padding : 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 :root {
@@ -81,7 +81,7 @@ body {
 .sidebar {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 155vh;
     text-align: center;
     box-shadow: 0px 0px 12px -7.5px #5b5b5b;
     align-items: center;
