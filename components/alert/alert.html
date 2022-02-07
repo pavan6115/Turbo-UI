@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/favicon_logo.svg">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./alert.css">
+    <script src="https://kit.fontawesome.com/6b1debee41.js" crossorigin="anonymous"></script>
+    <title>Turbo UI | Alert</title>
+</head>
+<body>
+    <main class="wrapper grid-layout">
+
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../index.html">
+                    <img src="../../images/favicon_logo.svg" alt="turbo ui logo" class="nav__logo"> 
+                    <span class="nav__logo-name">Turbo UI</span>
+                </a>
+            </div>
+
+            <div class="nav__right">
+                <ul>
+                    <li class="nav__right-icons">
+                        <a href="https://github.com/pavan6115" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/_kpavan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">Components</h2>
+            </div>
+
+            <ul class="sidebar__links">
+                <a href="">
+                    <li class="sidebar__link-item">Alert</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Avatar</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Badge</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Buttons</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Card</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Image</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Inputs</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Typography</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Modal</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Slider</li>
+                </a>
+            </ul>
+        </section>
+
+
+        <section class="content">
+
+            <div id="alerts">
+
+                <div class="alert__heading">
+                    <div class="alert__heading-title">
+                        <h1>Alerts</h1>
+                    </div>
+                    <div class="alert__heading-subtitle">
+                        <p>
+                            Alerts are used to notify the user whenever an important information is to be delivered.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="alert__examples">
+                    <div class="alert__examples-des">
+                        <h2>
+                            There are 5 types of alerts with which the user can be notified
+                        </h2>
+                        <p>
+                            Below examples illustrate the 5 different types of alerts. To use any of these alerts, simply add class <strong>alert</strong> followed by its type. Example → class="alert alert-success"
+                        </p>
+                    </div>
+
+                    <div class="alert__examples-box">
+                        <div class="alert alert-primary">
+                            Primary Alert Example
+                        </div>
+                        <div class="alert alert-secondary">
+                            Secondary Alert Example
+                        </div>
+                        <div class="alert alert-success">
+                            <span><i class="far fa-check-circle"></i></span>
+                            Success Alert Example
+                        </div>
+                        <div class="alert alert-warning">
+                            <span><i class="fas fa-exclamation-triangle"></i></span> Warning Alert Example
+                        </div>
+                        <div class="alert alert-error">
+                            <span><i class="far fa-times-circle"></i></span>
+                            Error Alert Example
+                        </div>
+                    </div>
+
+                    <div class="alert__iframe">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%2520%250A%2520%2509Primary%2520Alert%2520Example%2520%250A%2520%253C%252Fdiv%253E%250A%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2520%2520%2520%2520Secondary%2520Alert%2520Example%250A%2520%253C%252Fdiv%253E%250A%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%2520Success%2520Alert%2520Example%2520-%253E%2520You%2520have%2520successfully%2520placed%2520your%2520order%250A%2520%253C%252Fdiv%253E%250A%2520%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%2520Warning%2520Alert%2520Example%2520-%253E%2520You%2520don%27t%2520have%2520the%2520permission%2520to%2520this%2520section%250A%2520%253C%252Fdiv%253E%250A%2520%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%2520Error%2520Alert%2520Example%2520-%253E%2520You%2520have%2520entered%2520wrong%2520password.%2520Check%2520again%250A%2520%253C%252Fdiv%253E"
+                        style="width: 840px; height: 718px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
