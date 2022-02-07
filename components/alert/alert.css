@@ -64,25 +64,30 @@
 .alert-primary {
     background-color: var(--alert-primary-color);
     color: darkblue;
+    border-left: 10px solid darkblue;
 }
 
 .alert-secondary {
     background-color: var(--alert-secondary-color);
+    border-left: 10px solid;
 }
 
 .alert-success {
     background-color: var(--alert-success-color);
-    color: darkgreen
+    color: darkgreen;
+    border-left: 10px solid darkgreen;
 }
 
 .alert-warning {
     background-color: var(--alert-warning-color);
-    color: darkorange
+    color: darkorange;
+    border-left: 10px solid darkorange;
 }
 
 .alert-error {
     background-color: var(--alert-error-color);
     color: darkred;
+    border-left: 10px solid darkred;
 }
 
 .alert__iframe {
