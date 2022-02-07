@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.avatar__heading {
+    padding : .5rem;
+}
+
+.avatar__heading-title {
+    font-size: 2.2rem;
+}
+
+.avatar__heading-subtitle{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.avatar__examples {
+    margin-top: 2rem;
+    padding : .5rem;
+}
+
+.avatar__examples h2{
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    padding-top: .8rem;
+    font-weight: 300;
+}
+
+.avatar__picture {
+    margin: 3.5rem 0rem;
+}
+
+.avatar__picture-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+}
+
+.avatar__img-lg {
+    height: 12rem;
+}
+
+.avatar__img-md {
+    height: 9rem;
+}
+
+.avatar__img-sm {
+    height: 5rem;
+}
+
+.avatar__img-xs {
+    height: 3rem;
+}
+
+.avatar__picture-iframe {
+    text-align: center;
+}
+
+.avatar__text {
+    margin: 3.5rem 0rem;
+}
+
+.avatar__text-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+}
+
+.avatar-text {
+    border-radius: 50%;
+    background-color: #f28627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-txt-lg {
+    height: 10rem;
+    width: 10rem;
+    font-size: 3rem;
+}
+
+.avatar-txt-md {
+    height: 6.25rem;
+    width: 6.25rem;
+    font-size: 2rem;
+}
+
+.avatar-txt-sm {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+}
+
+.avatar-txt-xs {
+    height: 2rem;
+    width: 2rem;
+    font-size: 0.8rem;
+}
+
+.avatar__text-iframe {
+    text-align: center;
+}
