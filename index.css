@@ -183,13 +183,17 @@ i {
 }
 
 .btn-docs {
-  background-color: var(--primary-color);
-  font-weight: 500;
-  /* margin-top: 4rem; */
-  padding: 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  color: white;
+    background-color: var(--primary-color);
+    font-weight: 500;
+    /* margin-top: 4rem; */
+    padding : 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* color : white; */
+}
+
+.btn-docs > a {
+    color: white;
 }
 
 .btn-docs:hover {
