@@ -81,7 +81,7 @@
 .alert-warning {
     background-color: var(--alert-warning-color);
     color: darkorange;
-    border-left: 10px solid darkorange;
+    border-left: 9px solid darkorange;
 }
 
 .alert-error {
