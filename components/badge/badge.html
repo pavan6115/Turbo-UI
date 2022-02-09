@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/favicon_logo.svg">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./badge.css">
+    <script src="https://kit.fontawesome.com/6b1debee41.js" crossorigin="anonymous"></script>
+    <title>Turbo UI | Badge</title>
+</head>
+<body>
+    <main class="wrapper grid-layout">
+
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../index.html">
+                    <img src="../../images/favicon_logo.svg" alt="turbo ui logo" class="nav__logo"> 
+                    <span class="nav__logo-name">Turbo UI</span>
+                </a>
+            </div>
+
+            <div class="nav__right">
+                <ul>
+                    <li class="nav__right-icons">
+                        <a href="https://github.com/pavan6115" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/_kpavan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">Components</h2>
+            </div>
+
+            <ul class="sidebar__links">
+                <a href="../alert/alert.html">
+                    <li class="sidebar__link-item">Alert</li>
+                </a>
+                <a href="../avatar/avatar.html">
+                    <li class="sidebar__link-item">Avatar</li>
+                </a>
+                <a href="./badge.html">
+                    <li class="sidebar__link-item">Badge</li>
+                </a>
+                <a href="../buttons/buttons.html">
+                    <li class="sidebar__link-item">Buttons</li>
+                </a>
+                <a href="../card/card.html">
+                    <li class="sidebar__link-item">Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li class="sidebar__link-item">Image</li>
+                </a>
+                <a href="../inputs/inputs.html">
+                    <li class="sidebar__link-item">Inputs</li>
+                </a>
+                <a href="../typography/typography.html">
+                    <li class="sidebar__link-item">Typography</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li class="sidebar__link-item">Modal</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li class="sidebar__link-item">Slider</li>
+                </a>
+            </ul>
+        </section>
+
+        <section class="content">
+
+            <div id="badge">
+                <div class="badge__heading">
+                    <div class="badge__heading-title">
+                        <h1>Badge</h1>
+                    </div>
+                    <div class="badge__heading-subtitle">
+                        <p>
+                            Badge is used where we want to show some notification/message count or show on an icon indicating there is some notification.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="badge__examples">
+                    <div class="badge__examples-des">
+                        <h2>
+                            Badge can be of 2 different types - One with Avatar and other with Icons
+                        </h2>
+                        <p>
+                            Below examples illustrate the 4 different types of badges. To use any of these badges, simply add class <strong>badge</strong> followed by its type. Example → class="badge-online"
+                        </p>
+                    </div>
+
+                    <div class="badge__avatar">
+                        <h2>Badge with Avatar</h2>
+                        <p>
+                            Example → class="avatar" & span class="badge-away"
+                        </p>
+                        <div class="badge__avatar-examples">
+                            <div class="avatar-badge">
+                                <img src="../../images/avatar/avatar1.svg" alt="avatar img" 
+                                class="avatar-badge">
+                                <span class="badge-active"></span>
+                            </div>
+                            <div class="avatar-badge">
+                                <img src="../../images/avatar/avatar1.svg" alt="avatar img"
+                                class="avatar-badge">
+                                <span class="badge-offline"></span>
+                            </div>
+                            <div class="avatar-badge">
+                                <img src="../../images/avatar/avatar1.svg" alt="avatar img"
+                                class="avatar-badge">
+                                <span class="badge-away"></span>
+                            </div>
+                            <div class="avatar-badge">
+                                <img src="../../images/avatar/avatar1.svg" alt="avatar img" class="avatar-badge ">
+                                <span class="badge-dnd">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="badge__avatar-iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar1.svg%2522%2520alt%253D%2522avatar%2520img%2522%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-active%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar1.svg%2522%2520alt%253D%2522avatar%2520img%2522%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar1.svg%2522%2520alt%253D%2522avatar%2520img%2522%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-away%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar1.svg%2522%2520alt%253D%2522avatar%2520img%2522%2520class%253D%2522avatar-badge%2520%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-dnd%2522%253E%2520-%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="width: 874px; height: 590px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <div class="badge__icons">
+                        <h2>Badge with Icons</h2>
+                        <p>
+                            Example → class="badge-icons" & span class="notification"
+                        </p>
+                        <div class="badge__icons-examples">
+                            <div class="badge-icons">
+                                <i class="fas fa-bell">
+                                    <span class="notification">4</span>
+                                </i>
+                            </div>
+                            <div class="badge-icons">
+                                <i class="fas fa-shopping-cart">
+                                    <span class="notification">8</span>
+                                </i>
+                            </div>
+                            <div class="badge-icons">
+                                <i class="fas fa-envelope">
+                                    <span class="notification">2</span>
+                                </i>
+                            </div>
+                            <div class="badge-icons">
+                                <i class="fas fa-users">
+                                    <span class="notification">4</span>
+                                </i>
+                            </div>
+                            <div class="badge-icons">
+                                <i class="fab fa-discord">
+                                    <span class="notification">5</span>
+                                </i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="badge__icons-iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-users%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-discord%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                            style="width: 719px; height: 803px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+</body>
+</html>
