@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.badge__heading {
+    padding : .5rem;
+}
+
+.badge__heading-title {
+    font-size: 2.2rem;
+}
+
+.badge__heading-subtitle{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.badge__examples {
+    margin-top: 2rem;
+    padding : .5rem;
+}
+
+.badge__examples h2{
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    padding-top: .8rem;
+    font-weight: 300;
+}
+
+.badge__avatar {
+    margin: 3.5rem 0rem;
+}
+
+.badge__avatar-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.avatar-badge {
+    height: 10rem;
+    position: relative;
+}
+
+.badge-active {
+    position: absolute;
+    height: 1.2rem;
+    min-width: 1.1rem;
+    bottom: .3rem;
+    right: 1.8rem;
+    padding: .5rem;
+    background-color: rgb(3, 148, 3);
+    border: 2.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-offline {
+    position: absolute;
+    height: 1.2rem;
+    min-width: 1.1rem;
+    bottom: .3rem;
+    right: 1.8rem;
+    padding: .5rem;
+    background-color: red;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-away {
+    position: absolute;
+    height: 1.2rem;
+    min-width: 1.1rem;
+    bottom: .3rem;
+    right: 1.8rem;
+    padding: .5rem;
+    background-color: orange;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-dnd {
+    position: absolute;
+    height: 1.2rem;
+    min-width: 1.1rem;
+    bottom: .3rem;
+    right: 1.8rem;
+    padding: .3rem;
+    background-color: red;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+
+
+.badge__avatar-iframe {
+    text-align: center;
+}
+
+.badge__icons {
+    margin: 3.5rem 0rem;
+}
+
+.badge__icons-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.badge-icons {
+    position: relative;
+    font-size: 2rem;
+}
+
+.notification {
+    background-color: #f28627;
+    padding: .65rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.badge__icons-iframe {
+    text-align: center;
+}
