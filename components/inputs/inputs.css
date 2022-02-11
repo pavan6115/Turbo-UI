@@ -57,6 +57,8 @@
     box-shadow: 0px 0px 12px -7.5px #5b5b5b;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap : 1rem;
 }
 
 .txt-input,
