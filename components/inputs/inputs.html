@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/favicon_logo.svg">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./inputs.css">
+    <script src="https://kit.fontawesome.com/6b1debee41.js" crossorigin="anonymous"></script>
+    <title>Turbo UI | Inputs</title>
+</head>
+<body>
+    <main class="wrapper grid-layout">
+
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../index.html">
+                    <img src="../../images/favicon_logo.svg" alt="turbo ui logo" class="nav__logo"> 
+                    <span class="nav__logo-name">Turbo UI</span>
+                </a>
+            </div>
+
+            <div class="nav__right">
+                <ul>
+                    <li class="nav__right-icons">
+                        <a href="https://github.com/pavan6115" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/_kpavan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">Components</h2>
+            </div>
+
+            <ul class="sidebar__links">
+                <a href="">
+                    <li class="sidebar__link-item">Alert</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Avatar</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Badge</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Buttons</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Card</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Image</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Inputs</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Typography</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Modal</li>
+                </a>
+                <a href="">
+                    <li class="sidebar__link-item">Slider</li>
+                </a>
+            </ul>
+        </section>
+
+
+        <section class="content">
+
+            <div id="input">
+
+                <div class="input__heading">
+                    <div class="input__heading-title">
+                        <h2>Inputs</h2>
+                    </div>
+                    <div class="input__heading-subtitle">
+                        Inputs are used to to take input from the user. They are used in form to collect data and perform some validations on them.
+                    </div>
+                </div>
+
+                <div class="input__examples">
+
+                    <div class="input__examples-des">
+                        <h2>There are 2 basic types of inputs from which we can interact with the user</h2>
+                        <p>
+                            Below examples illustrate the 2 types on inputs - Input Boxes | Check Buttons Input
+                        </p>
+                    </div>
+
+                    <div class="input__box">
+                        <h2>Input Boxes</h2>
+                        <p>Example → class="txt-input"</p>
+                    </div>
+                    <div class="input__examples-container">
+                        <!-- Text Input -->
+                        <input type="text" class="txt-input" placeholder="Enter your Text">
+
+                        <!-- Password -->
+                        <input type="password" class="password-input" placeholder="Enter your Password">
+
+
+                        <!-- Numeric -->
+                        <input type="number" class="num-input" placeholder="Select Number">
+
+                        <!-- Disabled -->
+                        <input type="text" class="readonly-input" placeholder="Read only, Can't type" readonly="readonly">
+                    </div>
+
+                    <div class="input__box-iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Input%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522txt-input%2522%2520placeholder%253D%2522Enter%2520your%2520Text%2522%253E%250A%250A%253C%21--%2520Password%2520--%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522password-input%2522%2520placeholder%253D%2522Enter%2520your%2520Password%2522%253E%250A%250A%253C%21--%2520Numeric%2520--%253E%250A%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522num-input%2522%2520placeholder%253D%2522Select%2520Number%2522%253E%250A%250A%253C%21--%2520Disabled%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522readonly-input%2522%2520placeholder%253D%2522Read%2520Only%2522%2520readonly%253D%2522readonly%2522%253E"
+                            style="width: 891px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- Input Validations -->
+                    <div class="input__box">
+                        <h2>Input Validations Boxes</h2>
+                        <p>Example → class="txt-input-val   input-error"</p>
+                    </div>
+                    <div class="input__examples-container">
+                        <!-- Text Input Error-->
+                        <input type="text" class="txt-input-val input-error" placeholder="Entered wrong username">
+
+                        <!-- Password Error-->
+                        <input type="password" class="password-input-val input-warning" placeholder="Check Password Again">
+
+                        <!-- Text Input Success-->
+                        <input type="text" class="txt-input-val input-success" placeholder="Username correct">
+                         <!-- Password Success-->
+                         <input type="password" class="password-input-val input-success" placeholder="Password verified">
+                    </div>
+
+                    <div class="input__box-validation-iframe">
+                        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Input%2520Error--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522txt-input-val%2520input-error%2522%2520placeholder%253D%2522Entered%2520wrong%2520username%2522%253E%250A%250A%253C%21--%2520Password%2520Error--%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522password-input-val%2520input-warning%2522%2520placeholder%253D%2522Check%2520Password%2520Again%2522%253E%250A%250A%253C%21--%2520Text%2520Input%2520Success--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522txt-input-val%2520input-success%2522%2520placeholder%253D%2522Username%2520correct%2522%253E%250A%250A%253C%21--%2520Password%2520Success--%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522password-input-val%2520input-success%2522%2520placeholder%253D%2522Password%2520verified%2522%253E"
+  style="width: 1003px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+                    </div>
+
+                    <!-- Check Buttons -->
+                    <div class="check__btns">
+                        <h2>Check Buttons Input</h2>
+                        <p>Example → class="radio-inp" | class="checkbox-inp"</p>
+                    </div>
+                    <div class="check__btns-container">
+                        <!-- Radio Buttons -->
+                        <label for="radio">
+                            <input type="radio" class="radio-inp" value="">
+                            <span>Radio Button</span>
+                        </label>
+
+                        <!-- Checkbox -->
+                        <label for="checkbox">
+                            <input type="checkbox" class="checkbox-inp" value="">
+                            <span>Checkbox</span>
+                        </label>
+                    </div>
+
+                    <div class="check__btns-iframe">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Radio%2520Buttons%2520--%253E%250A%253Clabel%2520for%253D%2522radio%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio-inp%2522%2520value%253D%2522%2522%253E%250A%253Cspan%253ERadio%2520Button%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253C%21--%2520Checkbox%2520--%253E%250A%253Clabel%2520for%253D%2522checkbox%2522%253E%250A%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox-inp%2522%2520value%253D%2522%2522%253E%250A%253Cspan%253ECheckbox%253C%252Fspan%253E%250A%253C%252Flabel%253E"
+                        style="width: 607px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
