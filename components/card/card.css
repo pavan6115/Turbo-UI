@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+    --actual-pricing-color : rgb(87, 85, 85);
+    --discount-pricing-color : rgb(7, 214, 7);
+    --primary-color: #f28627;
+    --secondary-color: #f25c05;
+}
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.card__heading {
+    padding : .5rem;
+}
+
+.card__heading-title {
+    font-size: 2.2rem;
+}
+
+.card__heading-subtitle{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.card__examples {
+    margin-top: 2rem;
+    padding : .5rem;
+}
+
+.card__examples h2{
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.card__vertical {
+    margin: 3.5rem 0rem;
+}
+
+.card__vertical-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.card {
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    height: 38rem;
+    width: 23rem;
+    margin: 1rem;
+}
+
+.card__img-container {
+    position: relative;
+}
+
+.card__img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card__img-badge {
+    position: absolute;
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 5px 10px 10px 20px;
+    color: white;
+    top: 10px;
+    left: 10px;
+}
+
+.card-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-pricing {
+    margin: .5rem 0rem;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.offer-pricing {
+    font-size: 1.3rem;
+}
+
+.actual-pricing {
+    color: var(--actual-pricing-color);
+    text-decoration: line-through;
+    margin: 0rem 1rem;
+}
+
+.discount-percentange {
+    color: var(--discount-pricing-color);
+}
+
+.add-cart-btn {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.add-cart {
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.card-2 {
+    height: 23rem;
+    max-width: 100%;
+    object-fit: cover;
+    margin-left: 28px;
+}
+
+.card__vertical-iframe {
+    text-align: center;
+}
+
+/* horizontal card */
+.card__horizontal {
+    margin: 3.5rem 0rem;
+}
+
+.card__horizontal-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.card-horizontal {
+    height: 15rem;
+    width: 35rem;
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    display: flex;
+
+}
+
+.card__horizontal-img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.card__horizontal-heading {
+    padding: 1rem;
+}
+
+.card__horizontal-pricing {
+    display: flex;
+    align-items: center;
+    padding: 1rem
+}
+
+.btns {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.add-cart-horizontal {
+    padding: 7px 10px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    color: white;
+}
+
+.add-wishlist-btn {
+    padding : 7px 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 3px;
+    margin-left: 5px;
+
+}
+
+.card__horizontal-iframe {
+    text-align: center;
+}
+
+/* text overlay */
+
+.card__txt-overlay {
+    margin: 3.5rem 0rem;
+}
+
+.card__txt-overlay-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.card__txt-overlay-container {
+    position: relative;
+    background-color: var(--background-card-color);
+    /* box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px; */
+    border: 1px solid #5b5b5b;
+    border-radius: 8px;
+    width: 23rem;
+    height : 34rem;
+    margin: 1rem;
+}
+
+.txt-overlay-img{
+    border-radius: 8px 8px 0px 0px;
+    height: 25rem;
+    width: 100%;
+}
+
+.txt-overlay-title {
+    position: absolute;
+    bottom : 2rem;
+    left: 1rem;
+    color: white;
+}
+
+.txt-overlay-subtitle {
+    position : absolute; 
+    bottom : 1rem;
+    left: 1rem;
+    color: white;
+}
+
+.txt-overlay-info {
+    padding : .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-top-heading p {
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.txt-overlay-description {
+    margin-top: .2rem;
+}
+
+.txt-overlay-button-icon {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-button {
+    cursor: pointer;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.top-button-read {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.top-button-bookmark {
+    padding: .5rem;
+} 
+
+.top-button-read:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.top-button-bookmark:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.top-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom : 11px;
+}
+
+.top-icon-like {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.top-icon-share {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.top-icon-three-dot {
+    padding : .5rem;
+}
+
+.top-icon-like:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.top-icon-share:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.top-icon-three-dot:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.card__txt-overlay-dismiss-iframe {
+    text-align: center;
+}
+
+/* card dismiss */
+.card__dismiss {
+    position: absolute;
+    font-size: 1.2rem;
+    color: white;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
