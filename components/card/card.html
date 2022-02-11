@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/favicon_logo.svg">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./card.css">
+    <script src="https://kit.fontawesome.com/6b1debee41.js" crossorigin="anonymous"></script>
+    <title>Turbo UI | Cards</title>
+</head>
+<body>
+    <main class="wrapper grid-layout">
+
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../index.html">
+                    <img src="../../images/favicon_logo.svg" alt="turbo ui logo" class="nav__logo"> 
+                    <span class="nav__logo-name">Turbo UI</span>
+                </a>
+            </div>
+
+            <div class="nav__right">
+                <ul>
+                    <li class="nav__right-icons">
+                        <a href="https://github.com/pavan6115" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/_kpavan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">Components</h2>
+            </div>
+
+            <ul class="sidebar__links">
+                <a href="../alert/alert.html">
+                    <li class="sidebar__link-item">Alert</li>
+                </a>
+                <a href="../avatar/avatar.html">
+                    <li class="sidebar__link-item">Avatar</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li class="sidebar__link-item">Badge</li>
+                </a>
+                <a href="../buttons/buttons.html">
+                    <li class="sidebar__link-item">Buttons</li>
+                </a>
+                <a href="./card.html">
+                    <li class="sidebar__link-item">Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li class="sidebar__link-item">Image</li>
+                </a>
+                <a href="../inputs/inputs.html">
+                    <li class="sidebar__link-item">Inputs</li>
+                </a>
+                <a href="../typography/typography.html">
+                    <li class="sidebar__link-item">Typography</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li class="sidebar__link-item">Modal</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li class="sidebar__link-item">Slider</li>
+                </a>
+            </ul>
+        </section>
+
+        <section class="content">
+
+            <div id="card">
+                <div class="card__heading">
+                    <div class="card__heading-title">
+                        <h1>Cards</h1>
+                    </div>
+                    <div class="card__heading-subtitle">
+                        <p>
+                            Cards are used to show data collectively about any product. Mostly commonly you will see them in ECommerce site.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card__examples">
+                    <div class="card__examples-des">
+                        <h2>
+                            Cards can be different types based on their use case. 
+                        </h2>
+                        <p>
+                            Below examples illustrate the different types of cards. To use any of these cards, simply add class <strong>card</strong> followed by its type. Example → class="card"
+                        </p>
+                    </div>
+
+                    <!-- Vertical Card -->
+                    <div class="card__vertical">
+                        <h2>Vertical Card</h2>
+                        <p>
+                            Example → class="card"
+                        </p>
+                        <div class="card__vertical-examples">
+                            <!-- card 1 -->
+                            <div class="card">
+                                <div class="card__img-container">
+                                    <img src="../../images/card/hoodie-1.png" alt="hoodie img" class="card__img">
+                                    <span class="card__img-badge">NEW</span>
+                                </div>
+
+                                <div class="card-info">
+                                    <div class="heading-like">
+                                        <div class="card-heading">
+                                            <h2>Red & Black Hoodie</h2>
+                                            <p>
+                                                Roadster
+                                            </p>
+                                        </div>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+
+                                    <div class="card-pricing">
+                                        <div class="offer-pricing">
+                                            ₹839
+                                        </div>
+                                        <div class="actual-pricing">
+                                            ₹1199
+                                        </div>
+                                        <div class="discount-percentange">
+                                            30% off
+                                        </div>
+                                    </div>
+
+                                    <div class="add-cart-btn">
+                                        <button class="add-cart">
+                                            <span>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- card 2 -->
+                            <div class="card">
+                                <div class="card__img-container">
+                                    <img src="../../images/card/superdry-hoodie.png" alt="hoodie img" class="card__img card-2">
+                                    <!-- <span class="card__img-badge">NEW</span> -->
+                                </div>
+
+                                <div class="card-info">
+                                    <div class="heading-like">
+                                        <div class="card-heading">
+                                            <h2>White Hoodie</h2>
+                                            <p>
+                                                SuperDry
+                                            </p>
+                                        </div>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+
+                                    <div class="card-pricing">
+                                        <div class="offer-pricing">
+                                            ₹839
+                                        </div>
+                                        <div class="actual-pricing">
+                                            ₹1199
+                                        </div>
+                                        <div class="discount-percentange">
+                                            30% off
+                                        </div>
+                                    </div>
+
+                                    <div class="add-cart-btn">
+                                        <button class="add-cart">
+                                            <span>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- card 3 -->
+                            <div class="card">
+                                <div class="card__img-container">
+                                    <img src="../../images/card/black-white-hoodie.png" alt="hoodie img" class="card__img">
+                                    <span class="card__img-badge">Best Seller</span>
+                                </div>
+
+                                <div class="card-info">
+                                    <div class="heading-like">
+                                        <div class="card-heading">
+                                            <h2>Black & White Hoodie</h2>
+                                            <p>
+                                                GAP
+                                            </p>
+                                        </div>
+                                        <i class="far fa-heart"></i>
+                                    </div>
+
+                                    <div class="card-pricing">
+                                        <div class="offer-pricing">
+                                            ₹839
+                                        </div>
+                                        <div class="actual-pricing">
+                                            ₹1199
+                                        </div>
+                                        <div class="discount-percentange">
+                                            30% off
+                                        </div>
+                                    </div>
+
+                                    <div class="add-cart-btn">
+                                        <button class="add-cart">
+                                            <span>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__vertical-iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Fcard%252Fblack-white-hoodie.png%2522%2520alt%253D%2522hoodie%2520img%2522%2520class%253D%2522card__img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__img-badge%2522%253EBest%2520Seller%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522heading-like%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EBlack%2520%2526%2520White%2520Hoodie%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520GAP%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offer-pricing%2522%253E%2520%25E2%2582%25B9839%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522actual-pricing%2522%253E%2520%25E2%2582%25B91199%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522discount-percentange%2522%253E%252030%2525%2520off%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522add-cart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                            style="width: 951px; height: 803px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- Horizontal Card -->
+                    <div class="card__horizontal">
+                        <h2>Horizontal Card</h2>
+                        <p> Example → class="card-horizontal"</p>
+
+                        <div class="card__horizontal-examples">
+                            <!-- horizontal card 1 -->
+                            <div class="card-horizontal">
+                                <img src="../../images/card/black-white-hoodie.png" alt="b/w hoodie" class="card__horizontal-img">
+
+                                <div class="card__horizontal-info">
+                                    <div class="card__horizontal-heading">
+                                        <h2>Black & White Hoodie</h2>
+                                        <p>
+                                            GAP
+                                        </p>
+                                    </div>
+                                    <div class="card__horizontal-pricing">
+                                        <div class="offer-pricing">
+                                            ₹839
+                                        </div>
+                                        <div class="actual-pricing">
+                                            ₹1199
+                                        </div>
+                                        <div class="discount-percentange">
+                                            30% off
+                                        </div>
+                                    </div>
+                                    <div class="btns">
+                                        <button class="add-cart-horizontal">
+                                            <span>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                            Add to Cart
+                                        </button>
+                                        <button class="add-wishlist-btn">
+                                            Add to Wishlist
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- horizontal card 2 -->
+                            <div class="card-horizontal">
+                                <img src="../../images/card/hoodie-1.png" alt="b/w hoodie" class="card__horizontal-img">
+
+                                <div class="card__horizontal-info">
+                                    <div class="card__horizontal-heading">
+                                        <h2>Red & Black Hoodie</h2>
+                                        <p>
+                                            Roadster
+                                        </p>
+                                    </div>
+                                    <div class="card__horizontal-pricing">
+                                        <div class="offer-pricing">
+                                            ₹839
+                                        </div>
+                                        <div class="actual-pricing">
+                                            ₹1199
+                                        </div>
+                                        <div class="discount-percentange">
+                                            30% off
+                                        </div>
+                                    </div>
+                                    <div class="btns">
+                                        <button class="add-cart-horizontal">
+                                            <span>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                            Add to Cart
+                                        </button>
+                                        <button class="add-wishlist-btn">
+                                            Add to Wishlist
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__horizontal-iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Fcard%252Fblack-white-hoodie.png%2522%2520alt%253D%2522b%252Fw%2520hoodie%2522%2520class%253D%2522card__horizontal-img%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card__horizontal-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__horizontal-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EBlack%2520%2526%2520White%2520Hoodie%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520GAP%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__horizontal-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offer-pricing%2522%253E%2520%25E2%2582%25B9839%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522actual-pricing%2522%253E%2520%25E2%2582%25B91199%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522discount-percentange%2522%253E%252030%2525%2520off%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-cart-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-wishlist-btn%2522%253EAdd%2520to%2520Wishlist%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1020px; height: 611px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- Text Overlay -->
+                    <div class="card__txt-overlay">
+                        <h2>Card with Text Overlay and Dismiss</h2>
+                        <p>
+                            Example → class="card__txt-overlay" <br>
+                            Example of dismiss → "card__dismiss"
+                        </p>
+                        
+                        <div class="card__txt-overlay-examples">
+                            <!-- card with text overlay -->
+                            <div class="card__txt-overlay-container">
+                                <div class="card__img-container">
+                                    <img src="../../images/card/AnkurWarikoo.png" class="txt-overlay-img" alt="Ankur Warikoo">
+                                    <div class="txt-overlay-title">
+                                        <h2>Ankur Warikoo</h2>
+                                    </div>
+                                    <div class="txt-overlay-subtitle">
+                                        <p>Mentor | Entrepreneur | Teacher</p>
+                                    </div>
+
+                                </div>
+                        
+                                <div class="txt-overlay-info">
+                                    <div class="txt-overlay-description">
+                                        <p>
+                                            Ankur Warikoo is a guide, a mentor, an entrepreneur and the world's best teacher on the how to manage your finances
+                                        </p>
+                                    </div>
+                                
+                        
+                                    <div class="txt-overlay-button-icon">
+                                        <div class="top-button">
+                                            <span class="top-button-read">READ</span>
+                                            <span class="top-button-bookmark">BOOKMARK</span>
+                                        </div>
+                                        <div class="top-icons">
+                                            <!-- like icon -->
+                                            <div class="top-icon-like">
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                        
+                                            <!-- share icon -->
+                                            <div class="top-icon-share">
+                                                <i class="fas fa-share-alt"></i>
+                                            </div>
+                        
+                                            <!-- three dot icon -->
+                                            <div class="top-icon-three-dot">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Card with Dismiss  -->
+                            <div class="card__txt-overlay-container">
+                                <div class="card__img-container">
+                                    <img src="../../images/card/AnkurWarikoo.png" class="txt-overlay-img" alt="Ankur Warikoo">
+                                    <div class="txt-overlay-title">
+                                        <h2>Ankur Warikoo</h2>
+                                    </div>
+                                    <div class="txt-overlay-subtitle">
+                                        <p>Mentor | Entrepreneur | Teacher</p>
+                                    </div>
+                                    <span class="card__dismiss">
+                                        <i class="fas fa-times"></i>
+                                    </span>
+                                </div>
+                        
+                                <div class="txt-overlay-info">
+                                    <div class="txt-overlay-description">
+                                        <p>
+                                            Ankur Warikoo is a guide, a mentor, an entrepreneur and the world's best teacher on the how to manage your finances
+                                        </p>
+                                    </div>
+                                
+                        
+                                    <div class="txt-overlay-button-icon">
+                                        <div class="top-button">
+                                            <span class="top-button-read">READ</span>
+                                            <span class="top-button-bookmark">BOOKMARK</span>
+                                        </div>
+                                        <div class="top-icons">
+                                            <!-- like icon -->
+                                            <div class="top-icon-like">
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                        
+                                            <!-- share icon -->
+                                            <div class="top-icon-share">
+                                                <i class="fas fa-share-alt"></i>
+                                            </div>
+                        
+                                            <!-- three dot icon -->
+                                            <div class="top-icon-three-dot">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- iframe - txt-overlay and dismiss -->
+                    <div class="card__txt-overlay-dismiss-iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card__txt-overlay-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__img-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Fcard%252FAnkurWarikoo.png%2522%2520class%253D%2522txt-overlay-img%2522%2520alt%253D%2522Ankur%2520Warikoo%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522txt-overlay-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EAnkur%2520Warikoo%253C%252Fh2%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522txt-overlay-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EMentor%2520%257C%2520Entrepreneur%2520%257C%2520Teacher%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%253C%21--%2520Add%2520this%2520card-dismiss%2520class%2520if%2520you%2520want%2520card%2520with%2520dismiss%2520feature%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fspan%253E%2520--%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-overlay-info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522txt-overlay-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Ankur%2520Warikoo%2520is%2520a%2520guide%252C%2520a%2520mentor%252C%2520an%2520entrepreneur%2520and%2520the%2520world%27s%2520best%2520teacher%2520on%2520the%2520how%2520to%2520manage%2520your%2520finances%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522txt-overlay-button-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522top-button-read%2522%253EREAD%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522top-button-bookmark%2522%253EBOOKMARK%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520like%2520icon%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-icon-like%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520share%2520icon%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-icon-share%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520three%2520dot%2520icon%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-icon-three-dot%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1024px; height: 1100px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+        </section>
+    </main>
+</body>
+</html>
