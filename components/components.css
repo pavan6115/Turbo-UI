@@ -128,7 +128,7 @@ a {
     color: none;
 }
 
-ul {
+.sidebar__links {
     list-style: none;
     color : none;
     text-decoration: none;
