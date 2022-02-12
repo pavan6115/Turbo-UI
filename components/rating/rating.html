@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/favicon_logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./rating.css">
+    <script src="https://kit.fontawesome.com/6b1debee41.js" crossorigin="anonymous"></script>
+    <title>Turbo UI | Ratings</title>
+</head>
+<body>
+    <main class="wrapper grid-layout">
+
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../index.html">
+                    <img src="../../images/favicon_logo.svg" alt="turbo ui logo" class="nav__logo"> 
+                    <span class="nav__logo-name">Turbo UI</span>
+                </a>
+            </div>
+
+            <div class="nav__right">
+                <ul>
+                    <li class="nav__right-icons">
+                        <a href="https://github.com/pavan6115" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/_kpavan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">Components</h2>
+            </div>
+
+            <ul class="sidebar__links">
+                <a href="../alert/alert.html">
+                    <li class="sidebar__link-item">Alert</li>
+                </a>
+                <a href="../avatar/avatar.html">
+                    <li class="sidebar__link-item">Avatar</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li class="sidebar__link-item">Badge</li>
+                </a>
+                <a href="./buttons.html">
+                    <li class="sidebar__link-item">Buttons</li>
+                </a>
+                <a href="../card/card.html">
+                    <li class="sidebar__link-item">Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li class="sidebar__link-item">Image</li>
+                </a>
+                <a href="../inputs/inputs.html">
+                    <li class="sidebar__link-item">Inputs</li>
+                </a>
+                <a href="../text-utils/text-utils.html">
+                    <li class="sidebar__link-item">Typography</li>
+                </a>
+                <a href="../lists/lists.html">
+                    <li class="sidebar__link-item">Lists</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li class="sidebar__link-item">Slider</li>
+                </a>
+                <a href="../grids/grids.html">
+                    <li class="sidebar__link-item">Grids</li>
+                </a>
+                <a href="./rating.html">
+                    <li class="sidebar__link-item">Rating</li>
+                </a>
+            </ul>
+        </section>
+
+        <section class="content">
+
+            <div id="rating">
+
+                <div class="rating__heading">
+                    <div class="rating__heading-title">
+                        <h1>Rating</h1>
+                    </div>
+                    <div class="rating__heading-subtitle">
+                        <p>
+                            Rating are used to show how good the product is or giving points to something.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="rating__examples">
+                    <div class="rating__examples-des">
+                        <h2>Rating are usually seen in E-Commerce websites, Movie Reviews</h2>
+                        <p>
+                            The below examples illustrate the different types of ratings. To use any of these ratings use proper class name and its type.
+                        </p>
+                    </div>
+
+                    <div class="rating">
+                        <h2>Rating - Filled</h2>
+                        <p>
+                            Example → class="rating__fill"
+                            <br>
+                            For Hover effect → class="rating__fill__hover"
+                        </p>
+                        <div class="rating__standard-examples">
+                            <div class="rating__items">
+                                <i class="fas fa-star rating__fill"></i>
+                                <i class="fas fa-star rating__fill"></i>
+                                <i class="fas fa-star rating__fill"></i>
+                                <i class="fas fa-star rating__fill"></i>
+                                <i class="fas fa-star rating__fill"></i>
+                            </div>
+
+                            <div class="rating__items">
+                                <i class="fas fa-star rating__fill__hover"></i>
+                                <i class="fas fa-star rating__fill__hover"></i>
+                                <i class="fas fa-star rating__fill__hover"></i>
+                                <i class="fas fa-star rating__fill__hover"></i>
+                                <i class="fas fa-star rating__fill__hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rating__iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=453&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating__items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating__items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating__fill__hover%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                            style="width: 453px; height: 718px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+
+                    <div class="rating">
+                        <h2>Rating - Outline</h2>
+                        <p>
+                            Example → class="rating__outline__hover"
+                        </p>
+                        <div class="rating__standard-examples">
+                            <div class="rating__items">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="rating__items">
+                                <i class="far fa-star rating__outline__hover"></i>
+                                <i class="far fa-star rating__outline__hover"></i>
+                                <i class="far fa-star rating__outline__hover"></i>
+                                <i class="far fa-star rating__outline__hover"></i>
+                                <i class="far fa-star rating__outline__hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rating__iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=453&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating__items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating__items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2520rating__outline__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2520rating__outline__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2520rating__outline__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2520rating__outline__hover%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2520rating__outline__hover%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                            style="width: 453px; height: 590px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
