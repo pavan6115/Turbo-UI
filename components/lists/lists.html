@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/favicon_logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./lists.css">
+    <script src="https://kit.fontawesome.com/6b1debee41.js" crossorigin="anonymous"></script>
+    <title>Turbo UI | Lists</title>
+</head>
+<body>
+    <main class="wrapper grid-layout">
+
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../index.html">
+                    <img src="../../images/favicon_logo.svg" alt="turbo ui logo" class="nav__logo"> 
+                    <span class="nav__logo-name">Turbo UI</span>
+                </a>
+            </div>
+
+            <div class="nav__right">
+                <ul>
+                    <li class="nav__right-icons">
+                        <a href="https://github.com/pavan6115" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/_kpavan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">Components</h2>
+            </div>
+
+            <ul class="sidebar__links">
+                <a href="../alert/alert.html">
+                    <li class="sidebar__link-item">Alert</li>
+                </a>
+                <a href="../avatar/avatar.html">
+                    <li class="sidebar__link-item">Avatar</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li class="sidebar__link-item">Badge</li>
+                </a>
+                <a href="./buttons.html">
+                    <li class="sidebar__link-item">Buttons</li>
+                </a>
+                <a href="../card/card.html">
+                    <li class="sidebar__link-item">Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li class="sidebar__link-item">Image</li>
+                </a>
+                <a href="../inputs/inputs.html">
+                    <li class="sidebar__link-item">Inputs</li>
+                </a>
+                <a href="../text-utils/text-utils.html">
+                    <li class="sidebar__link-item">Typography</li>
+                </a>
+                <a href="./lists.html">
+                    <li class="sidebar__link-item">Lists</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li class="sidebar__link-item">Slider</li>
+                </a>
+                <a href="../grids/grids.html">
+                    <li class="sidebar__link-item">Grids</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li class="sidebar__link-item">Rating</li>
+                </a>
+            </ul>
+        </section>
+
+        <section class="content">
+
+            <div id="lists">
+
+                <div class="lists__heading">
+                    <div class="lists__heading__title">
+                        <h2>Lists</h2>
+                    </div>
+                    <div class="lists__heading__subtitle">
+                        <p>
+                            Lists are used to show some information in point-wise or in order-wise. Mostly used in E-Com sites, stacked notifications, sidebar, navigation bar, etc
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lists__examples">
+                    <div class="lists__examples__des">
+                        <h2>There are 2 different types of lists that are used - Simple List | Stacked List</h2>
+                        <p>The below examples illustrates the different types of lists. For using them add proper class names</p>
+                    </div>
+
+                    <!-- Simple List - Unordered -->
+                    <div class="simple__list">
+
+                        <h2>Simple Lists - Unordered List</h2>
+                        <p>Example → class="list list-square"</p>
+
+                        <div class="simple__list__examples__box">
+                            <!-- Normal List -->
+                            <ul class="list nm">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                                <li>List Item 5</li>
+                            </ul>
+
+                            <!-- Sqaure List -->
+                            <ul class="list list-square">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                                <li>List Item 5</li>
+                            </ul>
+
+                            <!-- Circle List -->
+                            <ul class="list list-circle">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                                <li>List Item 5</li>
+                            </ul>
+
+                        </div>                        
+                    </div>
+
+                    <!-- iframe - unorderd list  -->
+                    <div class="simple__list__unordered__iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Normal%2520List%2520--%253E%250A%253Cul%2520class%253D%2522list%2520nm%2522%253E%250A%2520%2520%253Cli%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25203%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25204%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25205%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253C%21--%2520Sqaure%2520List%2520--%253E%250A%253Cul%2520class%253D%2522list%2520list-square%2522%253E%250A%2520%2520%253Cli%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25203%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25204%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25205%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253C%21--%2520Circle%2520List%2520--%253E%250A%253Cul%2520class%253D%2522list%2520list-circle%2522%253E%250A%2520%2520%253Cli%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25203%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25204%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25205%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            style="width: 453px; height: 739px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- Simple List - Ordered -->
+                    <div class="simple__list">
+
+                        <h2>Simple Lists - Ordered List</h2>
+                        <p>Example → class="list list-alpha"</p>
+
+                        <div class="simple__list__examples__box">
+                            <!-- Normal List -->
+                            <ol class="list nm">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                                <li>List Item 5</li>
+                            </ol>
+
+                            <!-- Lower Roman List -->
+                            <ol class="list list-alpha">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                                <li>List Item 5</li>
+                            <ol>
+
+                        </div>                        
+                    </div>
+
+                    <div class="simple__list__ordered__iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=453&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Normal%2520List%2520--%253E%250A%253Col%2520class%253D%2522list%2520nm%2522%253E%250A%2520%2520%253Cli%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25203%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25204%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520Item%25205%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253C%21--%2520Lower%2520Roman%2520List%2520--%253E%250A%253Col%2520class%253D%2522list%2520list-alpha%2522%253E%250A%253Cli%253EList%2520Item%25201%253C%252Fli%253E%250A%253Cli%253EList%2520Item%25202%253C%252Fli%253E%250A%253Cli%253EList%2520Item%25203%253C%252Fli%253E%250A%253Cli%253EList%2520Item%25204%253C%252Fli%253E%250A%253Cli%253EList%2520Item%25205%253C%252Fli%253E%250A%253Col%253E"
+                            style="width: 453px; height: 548px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    
+                    <!-- Stacked List -->
+                    <div class="stacked__list">
+        
+                       <h2>Stacked Lists</h2>
+                       <p>Example → class="list-stacked"</p>
+        
+                        <div class="list__stacked__examples__box">
+                           <ul class="list__stacked">
+                               <li class="list__stacked__item">
+                                   <div class="list__stacked__title">
+                                       <h3>Title of the List</h3>
+                                   </div>
+                                   <h5>Subtitle with respect to Title</h5>
+                                   <p class="list__stacked__para">
+                                       Small description regarding the content 
+                                   </p>
+                               </li>
+        
+                               <li class="list__stacked__item">
+                                   <div class="list__stacked__title">
+                                       <h3>Title of the List</h3>
+                                   </div>
+                                   <h5>Subtitle with respect to Title</h5>
+                                   <p class="list__stacked__para">
+                                       Small description regarding the content 
+                                   </p>
+                               </li>
+        
+                               <li class="list__stacked__item">
+                                   <div class="list__stacked__title">
+                                       <h3>Title of the List</h3>
+                                   </div>
+                                   <h5>Subtitle with respect to Title</h5>
+                                   <p class="list__stacked__para">
+                                       Small description regarding the content 
+                                   </p>
+                               </li>
+                           </ul>
+                        </div>   
+                       
+                       <div class="list__stacked__iframe">
+                           <iframe
+                               src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=453&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list__stacked%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list__stacked__item%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list__stacked__title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%2520of%2520the%2520List%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ch5%253ESubtitle%2520with%2520respect%2520to%2520Title%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522list__stacked__para%2522%253E%250A%2520%2520%2520%2520%2520%2520Small%2520description%2520regarding%2520the%2520content%2520%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%21--%2520Add%2520more%2520li%2520tag%2520if%2520you%2520want%2520more%2520list%2520items%2520--%253E%250A%253C%252Ful%253E"
+                               style="width: 453px; height: 526px; border:0; transform: scale(1); overflow:hidden;"
+                               sandbox="allow-scripts allow-same-origin">
+                           </iframe>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
