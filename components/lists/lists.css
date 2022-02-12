@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.lists__heading {
+    padding : .5rem;
+}
+
+.lists__heading__title {
+    font-size: 2.2rem;
+}
+
+.lists__heading__subtitle{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.lists__examples {
+    margin-top: 2rem;
+    padding : .5rem;
+}
+
+.lists__examples h2{
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    padding-top: .8rem;
+    font-weight: 300;
+}
+
+.simple__list {
+    margin: 3.5rem 0rem;
+}
+
+.simple__list__examples__box {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+}
+
+.list {
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.list-square {
+    list-style-type: square;
+}
+
+.list-circle {
+    list-style-type: circle;
+}
+
+.simple__list__unordered__iframe {
+    text-align: center;
+}
+
+.list-roman {
+    list-style-type: upper-roman;
+}
+
+.list-alpha {
+    list-style-type: lower-alpha;
+}
+
+.simple__list__ordered__iframe {
+    text-align: center;
+}
+
+
+/* stacked list */
+.stacked__list {
+    margin: 3.5rem 0rem;
+}
+
+.list__stacked__examples__box {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+    flex-wrap: wrap;
+}
+
+.list__stacked {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.list__stacked__item {
+    border: 2px solid rgba(255, 166, 0, 0.897);
+    padding: 1rem
+}
+
+.list__stacked__iframe {
+    margin-top: 1rem;
+    text-align: center;
+}
+
