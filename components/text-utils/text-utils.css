@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.typography__heading {
+    padding : .5rem;
+}
+
+.typography__heading-title {
+    font-size: 2.2rem;
+}
+
+.typography__heading-subtitle{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.typography__examples {
+    margin-top: 2rem;
+    padding : .5rem;
+}
+
+.typography__examples h2{
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    padding-top: .8rem;
+    font-weight: 300;
+}
+
+.typography__examples-des > p {
+    font-size: 1.1rem;
+    padding-top: .8rem;
+    font-weight: 300;
+}
+
+.typo__heading {
+    margin: 3.5rem 0rem;
+}
+
+.typo__heading-examples-box {
+    padding: 2rem;
+    margin: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.headings {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.h1 {
+    font-size: 4.5rem;
+}
+
+.h2 {
+    font-size: 4.3rem;
+}
+
+.h3 {
+    font-size: 3.5rem;
+}
+
+.h4 {
+    font-size: 3rem;
+}
+
+.h5 {
+    font-size: 2.46rem;
+}
+
+.h6 {
+    font-size: 2rem;
+}
+
+.typo__heading-iframe {
+    text-align: center;
+}
+
+/* paragraphs */
+.typo__para {
+    margin: 3.5rem 0rem;
+}
+
+.typo__para-examples-box {
+    padding: 2rem;
+    margin: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.p-lg {
+    font-size: 2rem;
+    color : #5b5b5b
+}
+
+.p-md {
+    font-size: 1.5rem;
+    color : #5b5b5b;
+}
+
+.p-sm {
+    font-size: 1rem;
+    color: #5b5b5b;
+}
+
+.typo__para-iframe {
+    text-align: center;
+}
+
+/* Alignment */
+.typo__alignment {
+    margin: 3.5rem 0rem;
+}
+
+.typo__alignment-examples-box {
+    padding: 2rem;
+    margin: 1rem 0rem;
+    box-shadow: 0px 0px 13px -7.5px #5b5b5b;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.typo__alignment-iframe {
+    text-align: center;
+}
