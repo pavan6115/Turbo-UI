@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/Artboard 3.png" height="40" width="200" alt="Logo of Turbo UI"/>
+  <img src="./images/Artboard 3.png" height="45" width="200" alt="Logo of Turbo UI"/>
   
   Accelerate your Designing work with Turbo UI 
 </div>
