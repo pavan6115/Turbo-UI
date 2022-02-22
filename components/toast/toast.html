@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../images/favicon_logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./toast.css">
+    <script src="https://kit.fontawesome.com/6b1debee41.js" crossorigin="anonymous"></script>
+    <title>Turbo UI | Toast</title>
+</head>
+<body>
+    
+    <main class="wrapper grid-layout">
+
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../index.html">
+                    <img src="../../images/favicon_logo.svg" alt="turbo ui logo" class="nav__logo"> 
+                    <span class="nav__logo-name">Turbo UI</span>
+                </a>
+            </div>
+
+            <div class="nav__right">
+                <ul>
+                    <li class="nav__right-icons">
+                        <a href="https://github.com/pavan6115" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/_kpavan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">Components</h2>
+            </div>
+
+            <ul class="sidebar__links">
+                <a href="../alert/alert.html">
+                    <li class="sidebar__link-item">Alert</li>
+                </a>
+                <a href="../avatar/avatar.html">
+                    <li class="sidebar__link-item">Avatar</li>
+                </a>
+                <a href="./badge.html">
+                    <li class="sidebar__link-item">Badge</li>
+                </a>
+                <a href="../buttons/buttons.html">
+                    <li class="sidebar__link-item">Buttons</li>
+                </a>
+                <a href="../card/card.html">
+                    <li class="sidebar__link-item">Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li class="sidebar__link-item">Image</li>
+                </a>
+                <a href="../inputs/inputs.html">
+                    <li class="sidebar__link-item">Inputs</li>
+                </a>
+                <a href="../text-utils/text-utils.html">
+                    <li class="sidebar__link-item">Typography</li>
+                </a>
+                <a href="../lists/lists.html">
+                    <li class="sidebar__link-item">Lists</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li class="sidebar__link-item">Slider</li>
+                </a>
+                <a href="../grids/grids.html">
+                    <li class="sidebar__link-item">Grids</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li class="sidebar__link-item">Rating</li>
+                </a>
+                <a href="../navigation/navigation.html">
+                    <li class="sidebar__link-item">Navigation</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li class="sidebar__link-item">Modal</li>
+                </a>
+                <a href="./toast.html">
+                    <li class="sidebar__link-item">Toast</li>
+                </a>
+                
+            </ul>
+        </section>
+
+        <section class="content">
+
+            <div id="toast">
+                <div class="toast__heading">
+                    <div class="toast__heading-title">
+                        <h1>Toast</h1>
+                    </div>
+                    <div class="toast__heading-subtitle">
+                        <p>
+                           Toast are pop-ups which are used to notify the user whenever a specific action happens. It is usually shown in the bottom of the screen.
+                           <br>
+                           Add class 'toast-bottom' to first div.
+                           Example → class="toast toast-bottom"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="toast__examples">
+                    <div class="toast__layout-examples">
+                        <div class="toast">
+                            <div class="toast__text">
+                                <i class="fas fa-exclamation"></i>
+                                Error, something wrong happened!!
+                            </div>
+
+                            <div class="toast__action__btns">
+                                <button class="retry-btn">RETRY</button>
+                                <button class="close-btn"><i class="fas fa-times"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="toast-iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28241%2C245%2C249%2C1%29&t=one-dark&wt=none&l=css&width=649&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast-bottom%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast__text%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Error%252C%2520something%2520wrong%2520happened%21%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast__action__btns%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522retry-btn%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 649px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
