@@ -35,7 +35,11 @@ TurboUI has the following components. These components will be getting updates, 
 * [Typography](https://turboui.netlify.app/components/text-utils/text-utils.html)
 * [Lists](https://turboui.netlify.app/components/lists/lists.html)
 * [Slider](https://turboui.netlify.app/components/slider/slider.html)
+* [Grids](https://turboui.netlify.app/components/grids/grids.html)
 * [Rating](https://turboui.netlify.app/components/rating/rating.html)
+* [Navigation](https://turboui.netlify.app/components/navigation/navigation.html)
+* [Modal](https://turboui.netlify.app/components/modal/modal.html)
+* [Toast](https://turboui.netlify.app/components/toast/toast.html)
  
 ## Overview of Website 
 <div align="center">
